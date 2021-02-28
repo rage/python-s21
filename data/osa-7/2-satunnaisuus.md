@@ -195,6 +195,23 @@ Kun annamme siemenarvon itse, satunnaisuutta käyttävät funktiot antavat samat
 
 Jos tarkkoja ollaan, moduulin `random` muodostamat luvut eivät ole aitoja satunnaislukuja, vaan _pseudosatunnaislukuja_. Tietokoneen avulla on vaikea arpoa täysin satunnaisia lukuja, koska sen toiminta on kaikilta osin ennustettavissa. Monissa käyttötarkoituksissa luvut ovat kuitenkin tarpeeksi satunnaisia. Aitoja satunnaislukuja muodostettaessa lähteenä käytetään yleensä jotain tietokoneen ulkopuolista satunnaista ilmiötä, esimerkiksi radioaktiivista taustasäteilyä tai äänentasoa.
 
+Tietoturvallisia pseudosatunnaislukuja luodaan tietokoneella erityisillä, nk. kryptografisilla pseudosatunnaislukugeneraattoreilla. Näillä algoritmeilla on erityisiä vaatimuksia kuten se, ettei niiden luomia lukuja ole mahdollista ennustaa, vaikkapa tarkkailemalla algoritmin luomia lukuja tarpeeksi pitkään.
+
+[SystemRandom()](https://docs.python.org/3/library/random.html#random.SystemRandom) luokka tekee tietoturvallisten satunnaislukuoperaatioiden käytöstä Pythonissa helppoa:
+
+```python
+import random
+
+luku = random.randint(1, 100)  # Tämä ei ole turvallinen tapa!
+luku = random.SystemRandom().randint(1, 100)  # Tämä on turvallinen!
+
+from string import ascii_letters
+merkki = random.choice(ascii_letters)  # Ei ole turvallinen!
+merkki = random.SystemRandom().choice(ascii_letters)  # Turvallinen!
+```
+
+Tutustu myös Secrets-modulin [resepteihin](https://docs.python.org/3/library/secrets.html#recipes-and-best-practices).
+
 Lisätietoa löydät esimerkiksi sivulta <a href="https://www.random.org/randomness/">random.org</a>.
 
 </text-box>
