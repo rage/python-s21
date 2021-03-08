@@ -231,17 +231,18 @@ Tutustu myös Secrets-modulin [resepteihin](https://docs.python.org/3/library/se
 
 Salaisuuksien vahvuutta mitataan sen sisältämän informaation määrällä. Tätä entropiaksi kutsuttua suuretta voisi kuvailla siten, että se on lyhin mahdollinen tapa esittää kyseinen informaatio, vaikkapa ykkösten ja nollien jonona. Ylläolevat turvallisten algoritmien kutsut tekevät valituista luvuista, merkeistä, tai tavuista laskennallisesti mahdottomia ennustaa, mutta on helppo ymmärtää, että vaikka loisi turvallisella algoritmilla luvun väliltä 0000..9999, se löytyy nopeasti ohjelmallisella kokeilulla: tehokas kotitietokone pystyy tänä päivänä kokeilemaan kymmeniä miljardeja salasanoja sekunnissa.
 
-Salaisuuksien vahvuus on sama kuin yhdistelmien lukumäärä. Yhdistelmien määrä saadaan laskemalla merkkiavaruus<sup>pituus</sup>. Edellämainitussa esimerkissä merkkiavaruuden muodostavat siis luvut 0-9 (10 erilaista symbolia), ja merkkiavaruuden suuruus kerrottuna itsellään 4 kertaa (salaisuuden pituus) antaa yhdistelmien määräksi 10 000. 
+Salaisuuksien vahvuus on sama kuin yhdistelmien lukumäärä. Yhdistelmien määrä saadaan laskemalla merkkiavaruus<sup>pituus</sup>. Edellämainitussa esimerkissä merkkiavaruuden muodostavat siis luvut 0-9 (10 erilaista symbolia), ja merkkiavaruuden suuruus kerrottuna itsellään neljä kertaa (salaisuuden pituus) antaa yhdistelmien määräksi `10^4 = 10*10*10*10 = 10 000`. 
 
-Salaisuuksien vahvuutta on hankala mitata pituuden avulla, koska merkkiavaruus vaihtelee tapauskohtaisesti. Esimerkiksi:
+Salaisuuksien vahvuutta on hankala mitata pituuden avulla, koska merkkiavaruus vaihtelee tapauskohtaisesti, mikä taas vaikuttaa yhdistelmien määrään. Esimerkiksi 10 symbolin mittainen salaisuus
 
-* desimaaliluvut 0-9 (10 symbolia)
-* heksadesimaaliluvut 0-F (16 symbolia)
-* aakkoset a-z (26 tai 29 symbolia)
-* tavut 0x00-0xFF (256 symbolia)
+* desimaaliluvuilla 0-9 (10 symbolia) mahdollistaa 10^10 yhdistelmää
+* heksadesimaaliluvuilla 0-F (16 symbolia) mahdollistaa ~10^12 yhdistelmää 
+* aakkosilla a-z (26 symbolia) mahdollistaa ~10^14 yhdistelmää
+* tavuilla 0x00-0xFF (256 symbolia) mahdollistaa 10^24 yhdistelmää
   
-Vahvuussuosituksen voisi ilmaista yhdistelmien minimimääränä, mutta luku 340282366920938463463374607431768211456 on käytännössä mahdoton muistaa, eikä pyöristys 3,402823669×10<sup>38</sup> tuota yhtään vähempää päänvaivaa.
-Salaisuuksien vahvuus ilmaistaan tämän vuoksi lähes aina ns. bittivahvuutena, joka kuvaa sitä, kuinka monella ykkösellä ja nollalla (joilla tietokoneet toimivat joka tapauksessa) kaikki yhdistelmät on mahdollista esittää. Huomionarvoisena lisäyksenä, tämä tarkoittaa että salaisuuden pituuden kasvattaminen yhdellä bitillä kaksinkertaistaa yhdistelmien määrän, ja siten turvallisuuden. Bittivahvuus saadaan laskemalla 2-kantainen logaritmi yhdistelmien lukumäärästä:
+Vahvuussuosituksen voisi ilmaista yhdistelmien minimimääränä, mutta sopiva esitysmuoto, esim. 10<sup>38</sup> tuntuu irralliselta ja se on jokseenkin vaikea sovittaa tietokoneelle, joka operoi biteillä ja siten 2-kantaisella lukujärjestelmällä.
+
+Salaisuuksien vahvuus ilmaistaan tämän vuoksi lähes aina ns. bittivahvuutena, joka kuvaa sitä, kuinka monella ykkösellä ja nollalla kaikki yhdistelmät on mahdollista esittää. Huomionarvoisena lisäyksenä, tämä tarkoittaa että salaisuuden pituuden kasvattaminen yhdellä bitillä kaksinkertaistaa yhdistelmien määrän, ja siten turvallisuuden. Bittivahvuus saadaan laskemalla 2-kantainen logaritmi yhdistelmien lukumäärästä:
 
 ```python
 import math
@@ -260,13 +261,13 @@ print(f"{salasanan_bittivahvuus:.1f}")
 
 </sample-output>
 
-Miten vahvan salasanan hyökkääjä pystyy sitten murtamaan? Tehokas kotitietokone pystyy murtamaan vuodessa n. 60-bittisen salasanan, ja akateemiset pilvilaskentaa hyödyntävät ennätykset yltävät n. 80-bittisiin salasanoihin. Suuribudjettisten valtiollisten hyökkääjien kohdistetut laskentakyvyt arvioidaan lähelle 90-bittisten salaisuuksien murtamista. 
+Miten vahvan salasanan hyökkääjä pystyy sitten murtamaan? Tehokas kotitietokone pystyy murtamaan vuodessa n. 60-bittisen salasanan, ja akateemiset pilvilaskentaa hyödyntävät ennätykset yltävät n. 80-bittisiin salaisuuksiin. Suuribudjettisten valtiollisten toimijoiden tekemien, kohdistettujen laskentahyökkäyksien arvioidaan murtavan n. 90-bittisiä salaisuuksia. 
 
 Koska hyökkääjien kyvyt vaihtelevat suuresti, salaisuuden entropialle asetetaan tietoturvaa suunnitellessa ns. laskennallinen turvavara (engl. computational headroom). Hyvä nyrkkisääntö on, että alle 128-bittisiä salaisuuksia ei pidä käyttää, ja yli 256-bittinen salaisuus ei lisää tietoturvaa mitenkään hyödyllisellä tavalla. 
 
-Tätä kuvaa Euroopan kryptologisen tutkimushankkeen (ECRYPT) antama ohjeistus, joka löytyy osoitteesta https://www.keylength.com/en/3/ Salasanojen bittivahvuutta ei ole listattu, mutta niiden tulisi olla sama kuin symmetristen avainten vahvuuden. 
+Näitä lukuja kuvaa mm. Euroopan kryptologisen tutkimushankkeen (ECRYPT) antama ohjeistus, joka löytyy osoitteesta https://www.keylength.com/en/3/ Salasanojen bittivahvuutta ei ole listattu, mutta niiden tulisi olla sama kuin symmetristen avainten vahvuuden. 
 
-Tätä informaatiota soveltaen, bittivahvuutta vastaavan salasanapituuden löytäminen kun merkkiavaruuden koko on tiedossa, on helppoa:
+Tätä informaatiota soveltaen, bittivahvuutta vastaavan salasanapituuden löytäminen -- kun merkkiavaruuden koko on tiedossa -- on helppoa:
 
 ```python
 import math
@@ -277,7 +278,7 @@ yhdistelmien_maara = 2**haluttu_bittivahvuus
 merkkiavaruus = len(ascii_letters)
 tarvittava_pituus = math.ceil(math.log(yhdistelmien_maara, merkkiavaruus))
 
-print(f"{tarvittava_pituus:.1f}")
+print(tarvittava_pituus)
 ```
 
 <sample-output>
