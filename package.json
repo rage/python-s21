@@ -1,7 +1,7 @@
 {
   "name": "ohjelmoinnin-mooc",
   "engines": {
-    "node": "12.x"
+    "node": "14.x"
   },
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
@@ -49,7 +49,7 @@
     "gatsby-source-filesystem": "^3.3.0",
     "gatsby-transformer-remark": "^4.0.0",
     "graphql": "^15.5.0",
-    "graphql-request": "^3.4.0",
+    "graphql-request": "^1.8.2",
     "i18next": "^20.2.1",
     "i18next-browser-languagedetector": "^6.1.0",
     "i18next-xhr-backend": "^3.2.2",
@@ -63,12 +63,12 @@
     "luxon": "^1.26.0",
     "moment": "^2.29.1",
     "moocfi-python-editor": "^0.13.4",
-    "moocfi-quizzes": "^0.9.22",
+    "moocfi-quizzes": "^0.9.10",
     "pdf-slideshow": "^0.1.4",
     "postcss": "^8.2.12",
     "prismjs": "^1.23.0",
     "react": "^17.0.2",
-    "react-content-loader": "^6.0.3",
+    "react-content-loader": "^4.3.4",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.8.13",
@@ -76,7 +76,7 @@
     "react-motion": "^0.5.2",
     "react-redux": "^7.2.4",
     "react-scrollspy": "^3.4.3",
-    "react-toastify": "^7.0.4",
+    "react-toastify": "^5.5.0",
     "react-use": "^17.2.4",
     "react-youtube": "^7.13.1",
     "recharts": "^2.0.9",
@@ -95,7 +95,8 @@
     "typesafe-actions": "^4.4.2",
     "typescript": "^4.2.4",
     "uuid": "^8.3.2",
-    "visibilityjs": "^2.0.2"
+    "visibilityjs": "^2.0.2",
+    "watch": "^1.0.2"
   },
   "keywords": [
     "gatsby"
