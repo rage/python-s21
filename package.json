@@ -50,7 +50,7 @@
     "gatsby-transformer-remark": "^4.2.0",
     "graphql": "^15.5.0",
     "graphql-request": "^3.4.0",
-    "i18next": "^20.2.1",
+    "i18next": "^20.2.4",
     "i18next-browser-languagedetector": "^6.1.1",
     "i18next-xhr-backend": "^3.2.2",
     "interactjs": "^1.10.11",
@@ -60,7 +60,7 @@
     "jszip": "^3.6.0",
     "jszip-utils": "^0.1.0",
     "likert-react": "0.0.0-beta6",
-    "luxon": "^1.26.0",
+    "luxon": "^1.27.0",
     "moment": "^2.29.1",
     "moocfi-python-editor": "^0.14.0",
     "moocfi-quizzes": "^0.9.10",
@@ -114,8 +114,8 @@
     "local-quizzes-package": "./use-local-quizzes.sh"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining": "^7.13.12",
-    "@babel/preset-env": "^7.14.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
     "babel-preset-gatsby": "^1.5.0",
     "husky": "^4.3.8",
     "import-all.macro": "^3.1.0",
