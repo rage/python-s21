@@ -237,7 +237,7 @@ print(pituudet(listat))
 </programming-exercise>
 
 
-## Alkoiden suodatus
+## Alkioiden suodatus
 
 Edellisissä esimerkeissä uusi lista muodostettiin kaikista alkuperäisen listan alkioista. Joskus on kuitenkin näppärää, jos voitaisiin valita alkuperäiseltä listalta vain tietyt alkiot. Koosteessa tämä onnistuu yhdistämällä siihen ehto-osa. Yleinen syntaksi on seuraava:
 

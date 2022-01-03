@@ -564,7 +564,7 @@ Tehtäväpohjasta löytyy luokka `Palloilija`, jolla on seuraavat julkiset piirt
 * pelinumero
 * tehtyjen maalien määrä `maalit`
 * annettujen syöttöjen määrä `syotot`
-* peliminuuttien määärä `minuutit`
+* peliminuuttien määrä `minuutit`
 
 Kirjoita seuraavien tehtävänantojen mukaiset funktiot. Huomaa, että jokaisessa funktiossa palautetaan erityyppiset tiedot.
 
@@ -580,7 +580,7 @@ Kirjoita funktio `eniten_pisteita`, joka saa parametrikseen listan palloilijoita
 
 Funktio palauttaa tuplena sen pelaajan nimen ja pelinumeron, joka on tehnyt yhteensä eniten pisteitä. Pisteisiin lasketaan siis sekä maalit että syötöt.
 
-## Vähiten peliminuuttjea
+## Vähiten peliminuutteja
 
 Kirjoita funktio `vahiten_minuutteja`, joka saa parametrikseen listan palloilijoita.
 

@@ -107,7 +107,7 @@ AttributeError: 'Pankkikortti' object has no attribute '__numero'
 
 </sample-output>
 
-Tietojen piilottamista asiakkaalta kutsutaan _kapseloinniksi_. Nimensä mukaisesti attribuutti siis "suljetaan kapseliin" ja asiakkalle tarjotaan sopiva rajapinta, jonka kautta tietoa voi käsitellä.
+Tietojen piilottamista asiakkaalta kutsutaan _kapseloinniksi_. Nimensä mukaisesti attribuutti siis "suljetaan kapseliin" ja asiakkaalle tarjotaan sopiva rajapinta, jonka kautta tietoa voi käsitellä.
 
 Laajennetaan pankkikorttiesimerkkiä niin, että kortilla on piilotettu attribuutti saldo ja tämän käsittelyyn tarkoitetut julkiset metodit, joiden avulla asiakas voi hallita saldoa:
 
