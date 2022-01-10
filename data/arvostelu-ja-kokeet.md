@@ -36,14 +36,6 @@ Kurssit suoritetaan ratkomalla tehtäviä ja osallistumalla lopuksi kokeeseen.
 
 Voit osallistua mihin tahansa kokeeseen, kun olet saanut minimimäärän tehtäviä tehtyä. Käytännössä tämä tarkoittaa, että sinulla tulee olla 25 % kaikista tehtäväkierroksen pisteistä valmiina koepäivän aamuna klo 08.00. Jos pisteitä puuttuu, tenttisuoritustasi ei arvioida.
 
-<text-box variant="hint" name="Verkkotentti 16.12.2021">
-
-* Osan 14 voi tehdä tentin jälkeen.
-* Ohjelmoinnin jatkokurssin tenttiin 16.12. osallistumiseen riittää, että osien 8-13 tehtäväpisteistä on jokaisesta osasta 25 % valmiina koepäivän aamuna klo 08.00.
-* **Osan 14 peli tulee palauttaa vuoden 2021 loppuun mennessä, muuten tenttisuoritusta ei arvioida.**
-
-</text-box>
-
 Suorituksia tarkastellaan erikseen peruskurssin (osat 1-7) ja jatkokurssin (osat 8-14) osalta.
 
 Kurssilla saa osallistua halutessaan useampaan kokeeseen. Opintorekisteriin jää paras suoritus.

@@ -1,30 +1,32 @@
 ---
 path: "/verkkotentti"
-title: "Verkkotentti 16.12."
+title: "Ohjelmoinnin perusteet verkkotentti 15.1."
 information_page: true
 sidebar_priority: 3000
 hide_in_sidebar: false
 ---
 
-# Ohjelmoinnin jatkokurssi
+<!--# Ohjelmoinnin perusteet-->
+
+<text-box variant="hint" name="Huomio">
+
+<notice>Huomaa, että 15.1. voi tehdä molempien kurssien tentin.</notice>
+
+Ohjelmoinnin jatkokurssin tentin [ohjeet](/verkkotentti-ohja) ovat eri sivulla
+
+<a href="/verkkotentti-ohja">https://ohjelmointi-21.mooc.fi/verkkotentti-ohja</a>
+
+</text-box>
 
 #### Tenttiin osallistuminen
 
 * Tenttiin ei tarvitse ilmoittautua etukäteen.
 * Kurssisuorituksen saaminen edellyttää tenttiin osallistumista.
 
-<text-box variant="hint" name="Osa 14">
-
-* Osan 14 voi tehdä tentin jälkeen.
-* Ohjelmoinnin jatkokurssin tenttiin 16.12. osallistumiseen riittää, että osien 8-13 tehtäväpisteistä on jokaisesta osasta 25 % valmiina koepäivän aamuna klo 08.00.
-* **Osan 14 peli tulee palauttaa vuoden 2021 loppuun mennessä, muuten tenttisuoritusta ei arvioida.**
-
-</text-box>
-
 #### Tentin toteutus
 
 * Tentti suoritetaan kurssitehtävien tapaan vscode-ympäristössä.
-* Kurssin tentin voi suorittaa 16.12.2021 **klo 10:00-22:00** välisenä aikana.
+* Kurssin tentin voi suorittaa 15.1.2022 **klo 10:00-22:00** välisenä aikana.
 * Tentti päättyy viimeistään klo 22:00. Jos haluat käyttää tenttiin maksimiajan, **aloita se viimeistään klo 18:00**.
 * Aikaa tentin tekemiseen on **neljä tuntia**. Jos sinulla on erikseen annettu tenttiin lisäaikaa, aikaa on viisi tuntia.
 
@@ -36,7 +38,7 @@ hide_in_sidebar: false
 
 #### Tenttipäivänä
 
-<text-box variant="hint" name="Huomio">
+<!--text-box variant="hint" name="Huomio">
 <notice>Exams sivulla on teknisiä ongelmia</notice>
 
 Tässä ohje miten sivun saa toimimaan.
@@ -48,10 +50,10 @@ Firefox ja Edge on todettu parhaiten toimiviksi. Chromella sivusto toimii huonoi
  * Jos sivu ei vieläkään toimi, kokeile päivittää (ladata uudelleen) sivu monta kertaa. Jos sivun päivittäminen ei auta, kokeile sivun avaamista toisella selaimella.
  * Jos sivu ei toimi toisellakaan selaimella, kokeile vielä silläkin päivittää sivua useamman kerran.
 
-</text-box>
+</text-box-->
 
 * Teknisten ongelmien varalta ohjaaja päivystää tenttipäivänä **klo 10:00-14:00** [Discordissa](https://study.cs.helsinki.fi/discord/join/ohjelmoinnin_mooc) `ohjelmoinnin_mooc_general` kanavalla.
-<!--* Tenttipäivänä **klo 14:00-22:00** keskustelu kurssin kanavilla on kielletty. Kurssin Discord on lukittu ja kanaville ei voi lähettää viestejä.-->
+* Tenttipäivänä **klo 14:00-22:00** keskustelu kurssin kanavilla on kielletty. Kurssin Discord on lukittu ja kanaville ei voi lähettää viestejä.
 
 #### Tehtäväpohjien hakeminen
 
@@ -61,7 +63,7 @@ Firefox ja Edge on todettu parhaiten toimiviksi. Chromella sivusto toimii huonoi
 2. Valitse TMC-valikosta `My courses`-näkymä.
 3. Paina `Add new course`-nappulaa.
 4. Valitse organisaatioksi `Helsingin yliopisto`.
-5. Valitse kurssiksi `OHJA Python, syksy 2021, Verkkotentti 3`.
+5. Valitse kurssiksi `OHPE Python, syksy 2021, Verkkotentti 4`.
 6. Lataa tehtäväpohjat.
 7. Testaa tehtävien lähettämistä.
 8. Jos saat lähetettyä tehtävät palvelimelle niin olet valmis tekemään tentin, muutoin ole yhteydessä ohjaajaan.
@@ -74,8 +76,8 @@ Firefox ja Edge on todettu parhaiten toimiviksi. Chromella sivusto toimii huonoi
 
 * Tenttikysymykset ilmestyvät <a href="https://exams.mooc.fi/fi">https://exams.mooc.fi/fi</a> sivulle tenttipäivänä klo 10:00.
 * Tentti-sivuille kirjaudutaan käyttäen normaaleja mooc.fi-tunnuksia.
-* Valitse kurssiksi `OHJA Python, syksy 2021, Verkkotentti 3`.
-* Jos olet oikeutettu lisäaikaan valitse `OHJA Python, syksy 2021, Verkkotentti 3 (LISÄAIKA)`.
+* Valitse kurssiksi `OHPE Python, syksy 2021, Verkkotentti 4`.
+* Jos olet oikeutettu lisäaikaan valitse `OHPE Python, syksy 2021, Verkkotentti 4 (LISÄAIKA)`.
 * Tenttiaika alkaa siitä hetkestä kun painat `Aloita tentti` -linkkiä.
 
 #### Tehtävien palauttaminen
@@ -87,7 +89,7 @@ Firefox ja Edge on todettu parhaiten toimiviksi. Chromella sivusto toimii huonoi
 #### Tentin lopetus
 
 * Ennen lopettamista palauta kaikki tehtävät vielä kertaalleen tenttiajan sisällä.
-* Voit tarkistaa  lähettämiesi tehtävien saapumisen palvelimelle kirjautumalla sivulle [https://tmc.mooc.fi/org/hy/courses/951](https://tmc.mooc.fi/login?return_to=%2Forg%2Fhy%2Fcourses%2F951)
+* Voit tarkistaa  lähettämiesi tehtävien saapumisen palvelimelle kirjautumalla sivulle [https://tmc.mooc.fi/org/hy/courses/967](https://tmc.mooc.fi/login?return_to=%2Forg%2Fhy%2Fcourses%2F967)
 * Voit sulkea tenttitehtävä-sivun kun olet valmis. Muita toimenpiteitä ei vaadita.
 
 #### Tentin tulokset
@@ -105,4 +107,3 @@ Firefox ja Edge on todettu parhaiten toimiviksi. Chromella sivusto toimii huonoi
 * Tenttivastaukset tarkistetaan plagoinnintunnistusohjelmalla. Huijaus johtaa aina vähintään tenttisuorituksen hylkäämiseen, mahdollisesti myös kurssilta poistamiseen.
 * Tenttikysymykset muistuttavat kurssimateriaalin tehtäviä - tenttiin valmistautumiseksi kannattaa siis kertailla materiaalia.
 * Kurssin tulokset tulevat kokeen jälkeen sähköpostitse opintopisteohjeiden kera.
-
