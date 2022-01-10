@@ -1,6 +1,6 @@
 ---
 path: "/verkkotentti"
-title: "Ohjelmoinnin perusteet verkkotentti 15.1."
+title: "Ohjelmoinnin perusteiden verkkotentti 15.1."
 information_page: true
 sidebar_priority: 3000
 hide_in_sidebar: false
