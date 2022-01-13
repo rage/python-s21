@@ -418,7 +418,7 @@ Huone tyhjä? True
 Lyhin: None
 
 Huone tyhjä? False
-Lyhin: Nina
+Lyhin: Nina (172 cm)
 
 Huoneessa 4 henkilöä, yhteispituus 723 cm
 Lea (183 cm)
