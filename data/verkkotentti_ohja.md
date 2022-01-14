@@ -37,7 +37,7 @@ Ohjelmoinnin perusteiden tentin [ohjeet](/verkkotentti) ovat eri sivulla
 
 #### Tenttipäivänä
 
-<!--text-box variant="hint" name="Huomio">
+<text-box variant="hint" name="Huomio">
 <notice>Exams sivulla on teknisiä ongelmia</notice>
 
 Tässä ohje miten sivun saa toimimaan.
@@ -49,7 +49,7 @@ Firefox ja Edge on todettu parhaiten toimiviksi. Chromella sivusto toimii huonoi
  * Jos sivu ei vieläkään toimi, kokeile päivittää (ladata uudelleen) sivu monta kertaa. Jos sivun päivittäminen ei auta, kokeile sivun avaamista toisella selaimella.
  * Jos sivu ei toimi toisellakaan selaimella, kokeile vielä silläkin päivittää sivua useamman kerran.
 
-</text-box-->
+</text-box>
 
 * Teknisten ongelmien varalta ohjaaja päivystää tenttipäivänä **klo 10:00-14:00** [Discordissa](https://study.cs.helsinki.fi/discord/join/ohjelmoinnin_mooc) `ohjelmoinnin_mooc_general` kanavalla.
 * Tenttipäivänä **klo 14:00-22:00** keskustelu kurssin kanavilla on kielletty. Kurssin Discord on lukittu ja kanaville ei voi lähettää viestejä.
