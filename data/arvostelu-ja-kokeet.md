@@ -31,6 +31,7 @@ Kurssit suoritetaan ratkomalla tehtäviä ja osallistumalla lopuksi kokeeseen.
 * Lauantai 4.12.21
 * Torstai 16.12.21
 * Lauantai 15.1.22
+* Lauantai 26.2.22 (Kokeen arvostelussa tehtäväpisteet otetaan huomioon 15.1.2022 klo. 8.00 tilanteen mukaan)
 
 ## Tenttiin osallistuminen
 
