@@ -17,7 +17,7 @@ sidebar_priority: 5000
 
 </br>
 
-<b>Vuoden 2021 toteutuksen Ohjelmoinnin jatkokurssilla järjestetään lauantaina 26.2.22 klo. 10.00-22.00 vielä yksi verkkotentti, jonka arvostelussa tehtäväpisteet otetaan huomioon niin kuin ne olivat 15.1.22 klo. 8.00. Lisätietoa tentistä päivitetään näille sivuille lähempänä koepäivää.</b>
+<b>Vuoden 2021 toteutuksen Ohjelmoinnin jatkokurssilla järjestetään lauantaina 26.2.22 klo. 10.00-22.00 vielä yksi verkkotentti, jonka arvostelussa tehtäväpisteet otetaan huomioon niin kuin ne olivat 15.1.22 klo. 8.00.</b>
 
 </text-box>
 
