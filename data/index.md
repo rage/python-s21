@@ -15,10 +15,6 @@ sidebar_priority: 5000
 
 <b>Vuoden 2022 Ohjelmoinnin MOOCin kurssimateriaalin löydät halutessasi täältä: [https://ohjelmointi-22.mooc.fi/](https://ohjelmointi-22.mooc.fi/)</b>
 
-</br>
-
-<b>Vuoden 2021 toteutuksen Ohjelmoinnin jatkokurssilla järjestetään lauantaina 26.2.22 klo. 10.00-22.00 vielä yksi verkkotentti, jonka arvostelussa tehtäväpisteet otetaan huomioon niin kuin ne olivat 15.1.22 klo. 8.00.</b>
-
 </text-box>
 
 Nämä ovat Ohjelmoinnin perusteiden (TKT10002, 5 op) ja Ohjelmoinnin jatkokurssin (TKT10003, 5 op) kurssisivut.
