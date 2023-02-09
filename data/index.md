@@ -13,7 +13,7 @@ sidebar_priority: 5000
 
 </br>
 
-<b>Vuoden 2022 Ohjelmoinnin MOOCin kurssimateriaalin löydät halutessasi täältä: [https://ohjelmointi-22.mooc.fi/](https://ohjelmointi-22.mooc.fi/)</b>
+<b>Vuoden 2023 Ohjelmoinnin MOOCin kurssimateriaalin löydät halutessasi täältä: [https://ohjelmointi-23.mooc.fi/](https://ohjelmointi-23.mooc.fi/)</b>
 
 </text-box>
 
